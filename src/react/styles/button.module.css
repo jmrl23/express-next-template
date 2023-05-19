@@ -1,0 +1,18 @@
+.button {
+  background-color: #efefef;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+.button:is(:hover, :focus) {
+  outline: 2px solid #e0e0e0;
+  outline-offset: 2px;
+}

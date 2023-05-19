@@ -1,5 +1,6 @@
 {
   "watch": ["src/**/*"],
   "exec": "rm -fr ./build && tsc && node .",
+  "ignore": ["src/react/**"],
   "ext": "ts,js,json"
 }

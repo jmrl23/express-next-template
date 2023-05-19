@@ -20,7 +20,11 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@react": ["./src/react"],
+      "@react/*": ["./src/react/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
